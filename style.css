@@ -1,0 +1,206 @@
+body {
+}
+
+.logo1{
+    height:50px; 
+    width:50px; 
+    border-radius: 48px; 
+    overflow: hidden; 
+    top:30;
+    position: absolute;
+    left: 20%;
+}
+
+.judul {
+z-index:1;
+opacity:80%;
+height: 20%;
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+text-align: center;
+
+background-color: rgb(19, 91, 185);
+}
+.judul h1{
+    overflow: hidden;
+    left: 30%;
+    position: absolute;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color : white;
+}
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.sidebar ul li{
+opacity:80%;
+background-color: rgb(29, 192, 204);
+display: block;
+}
+.sidebar ul li:hover{
+transition: 1s;
+background-color: white;
+}
+
+
+.sidebar{
+top:130;
+opacity:0;
+transition: 1s;
+margin-left: -275px;
+z-index: 1;
+position:absolute;
+background-color: rgb(11, 1, 158);
+}
+.sidebar ul li a{
+font-family:Calibri;
+font-weight: 900;
+padding-top: 30px;
+height:28px;
+width: 250px;
+text-align: center;
+display: block;
+ text-decoration: none;   
+ color: white;
+}
+.sidebar ul li a:hover{
+transition: 1s;
+color : rgb(29, 192, 204);
+    }
+.logoside{
+    color: white;
+    font-family:sans-serif;
+    font-weight: bolder;
+    padding-top:20px;
+    text-align: center;
+}
+
+ .profil{
+    font-family:Calibri;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+ }
+ .profilpic{
+    
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+ }
+
+ .trigger{
+    top:40;
+    opacity: 0;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 3;    
+ }
+ 
+ .trigger:checked ~ .sidebar{
+margin-left: -15px;
+transition:1s;
+opacity:100%;
+ }
+
+
+.burger1{
+left:15;
+top :45;
+position: absolute;
+margin-bottom:5px ;
+z-index: 2;
+background-color: white;
+width:30px;
+height:5px;
+}
+.burger2{
+left:15;
+top :55;
+position: absolute;    
+margin-bottom:5px ;
+z-index: 2;
+background-color: white;
+width:30px;
+height:5px;
+    }
+.burger3{
+left:15;
+top :65;
+position: absolute;
+z-index: 2;
+background-color: white;
+width:30px;
+height: 5px;
+}
+.countainer{
+    margin-left: -8px;
+    height:100%;
+    overflow:scroll;
+}
+.contentbanner{
+    width: 100%;
+    background-color: white;
+}
+
+.fill{
+top:0;
+left: 0;
+z-index: 0;
+position: absolute;
+background-image:linear-gradient(blue,white,blue);
+width:100%;
+height:20%;
+}
+.banner{
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    border-style: solid;
+    border-color:rgb(69, 41, 224);
+}
+.contenthead h1{
+text-align: center;
+color: rgb(55, 123, 248) ;
+}
+
+.content1{
+    margin-left: 10px;
+    float: left;
+    font-family: Arial;
+    text-align: center;
+    border-radius: 30px;
+    color: rgb(229, 239, 245);
+    width: 30%;
+    background-color: rgb(55, 123, 248);
+}
+.content1:hover{
+transition:0.5s;
+opacity: 80%;
+}
+
+.sejarah{
+background-color: rgba(187, 228, 233, 0.555);
+border-radius:10px;
+color:rgb(55, 123, 248) ;
+float: right;
+width: 60%;
+}
+
+footer{
+text-align: center;
+position: absolute;
+bottom:0;
+left:0;
+color: white;
+background-color:rgb(19, 91, 185);
+}
